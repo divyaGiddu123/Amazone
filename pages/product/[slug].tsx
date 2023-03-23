@@ -19,6 +19,8 @@ export default SlugPage;
 export const getServerSideProps: GetServerSideProps<SlugPageProps> = async (context) => {
   const { slug } = context.query;
   const product = data.products.find((p) => p.slug === slug);
+  {console.log(product)}
+
   return {
     props: {
       product,
