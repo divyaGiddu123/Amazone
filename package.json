@@ -10,12 +10,16 @@
   },
   "dependencies": {
     "@types/node": "18.15.5",
+    "@types/react-dnd": "^3.0.2",
+    "@types/react-dnd-html5-backend": "^3.0.2",
     "@types/react-dom": "18.0.11",
     "bcryptjs": "^2.4.3",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
     "react": "18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "18.2.0",
     "typescript": "5.0.2"
   },
